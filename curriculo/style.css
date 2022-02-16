@@ -1,0 +1,147 @@
+@font-face{
+    font-family: mandinga;
+    src:url('MANDINGA.woff');
+}
+*{
+    font-family: mandinga;
+    color: aliceblue;
+    transition-duration: 0.4s ;
+}
+header{
+    margin-left: auto;
+    margin-right: auto;
+    border-top-left-radius: 100%;
+    border-top-right-radius: 100%;
+    border-color: #141414;
+    width: 350px;
+    background-color:#141414;
+    box-shadow: 15px 10px red;
+    text-align: center;
+}
+.img1{
+    width: 300px;
+    height: 300px;
+    border-radius: 100%;
+    border: 25px solid;
+    border-color: #141414;
+}
+body{
+    background-color: #6642aa;
+    width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.contato p{    
+    text-align: center;
+    padding-right: 20px;
+    padding-top: 0px;
+    margin: 0px;
+    font-size: 40px;   
+}
+.contato a{
+    text-decoration: none;
+    color:#6642aa;
+}
+.botao{
+    background-color: #6642aa;
+    border: 2px solid #6642aa;
+    padding: 5px;
+    font-size: 25px;
+    cursor: pointer;
+    margin: 12px 0 ;
+    border-radius: 10px
+}
+.botao:hover{
+    background-color: #141414;
+}
+.inicio{
+    text-align: center;
+}
+section{
+    width: 600px;
+    background-color: #141414;
+    padding: 50px;
+    border-radius: 50px;  
+    font-size: 25px;
+    font-family: mandinga;
+    text-align: justify;
+    box-shadow: 15px 10px red;
+}
+
+.descricao{
+    margin-top: 30px;
+}
+.titulo{
+    margin-left: 50px;
+    position: absolute;
+    padding: 10px;
+    background-color: #ffffff;
+    color: #141414;
+    border-radius: 20px;
+    margin-top: 20px;
+}
+.redes{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.redes li{
+    display: inline-block;
+    margin: 3px;
+    padding: 3px;
+}
+.redes img{
+    width: 60px;
+
+}
+.redes img:hover{
+    border-radius: 100%;
+    box-shadow: 3px 3px 0px 3px red;
+}
+strong{
+    color: #6642aa;
+}
+.infocontato{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+@media (max-width:1000px){
+    .img1{
+        width: 200px;
+        height: 200px;
+        border: 20px solid; 
+        border-color: #141414;  
+        background-color:#141414;
+        box-shadow: 10px 3px red;
+    }   
+    section{
+        width: 400px;
+        background-color: #141414;
+        padding: 30px;
+        border-radius: 30px;  
+        font-size: 20px;
+        box-shadow: 10px 10px red;
+    }
+    header{
+        background: none;
+        text-align: center;
+        width: 460px;
+        box-shadow: none;
+    }
+    body{
+        background-color: #6642aa;
+        width: 460px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .contato p{
+        font-size: 25px;
+    }
+    .redes img{
+        width: 50px;
+        border-radius: 100%;
+    }
+}

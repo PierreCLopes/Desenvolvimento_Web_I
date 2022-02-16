@@ -1,0 +1,129 @@
+@font-face{
+    font-family: mandinga;
+    src:url('MANDINGA.woff');
+}
+*{
+    font-family: mandinga;
+    color: aliceblue;
+}
+body{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    background-position: top;
+    background-image: url(imagens/sistema_fundo.jpg);
+}
+.textbox{
+    width: 75%;
+    font-size: 20px;
+    padding: 8px 0;
+    margin: 8px 0;
+    text-align: center;
+    
+}
+.textbox input{
+    border: none;
+    outline: none;
+    background: none;
+    color: white;
+    font-size: 25px;
+    width: max-content;
+    margin-top: 15px;
+    border-bottom: 1px solid #6642aa;
+    padding: 13px 0;
+}
+thead{
+    font-size: 25px;
+}
+th, td{
+    border: white solid 1px;
+    padding: 0;
+    margin: 0;
+}
+table{
+    border-spacing: 0;
+    background-color: #141414;
+}
+.form-box{
+    width: max-content;
+    padding: 20px;
+    background-color: #141414;
+    border-radius: 30px;
+}
+h2{
+    text-align: left;
+    font-size: 25px;
+    border-bottom: 6px solid #6642aa;
+    margin-bottom: 0px;
+    padding: 13px 0;
+    width: 60%;
+}
+.salvar{
+    width: 30%;
+    background-color: #6642aa;
+    border: 2px solid #6642aa;
+    color: white;
+    padding: 5px;
+    font-size: 25px;
+    cursor: pointer;
+    margin: 5px 0 ;
+    border-radius: 15px;
+}
+.salvar:hover{
+    background-color: #141414;
+    transition-duration: 0.4s;
+}
+.deletar{
+    width: 40%;
+    background-color: rgb(182, 44, 44);
+    border: 2px solid rgb(182, 44, 44);
+    color: white;
+    padding: 5px;
+    font-size: 20px;
+    border-radius: 5px;
+    margin: 5px;
+}
+.editar{
+    width: 40%;
+    background-color: rgb(63, 63, 212);
+    border: 2px solid rgb(63, 63, 212);
+    color: white;
+    padding: 5px;
+    font-size: 20px;
+    border-radius: 5px;
+    margin: 5px;
+}
+.editar:hover, .deletar:hover{
+    background-color: black;
+    transition-duration: 0.4s;
+}
+a{
+    text-decoration: none;
+}
+.sucesso{
+    color: green;
+}
+.erro{
+    color: red;
+}
+.desconectar{
+    width: 10%;
+    background-color: #141414;
+    border: 2px solid #141414;
+    color: white;
+    padding: 10px;
+    font-size: 25px;
+    cursor: pointer;
+    margin: 5px 0;
+}
+.desconectar:hover{
+    background-color:  rgb(182, 44, 44);
+    transition-duration: 0.4s;
+}
+label{
+    font-size: 25px;
+    border-bottom: 1px solid #6642aa;
+    padding: 13px 0;
+    float: center;
+    color: grey;
+}
