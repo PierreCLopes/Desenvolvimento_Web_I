@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2021/10/14 22:34:23.000.251,=C:\Users\Pierre\Documents\RAD Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2021/10/14 22:34:41.000.315,C:\Users\Pierre\Documents\RAD Studio\Projects\uForm.dfm=C:\Users\Pierre\Documents\RAD Studio\Projects\Unit1.dfm</Transaction>
+    <Transaction>2021/10/14 22:34:41.000.315,C:\Users\Pierre\Documents\RAD Studio\Projects\uForm.pas=C:\Users\Pierre\Documents\RAD Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2021/10/14 22:35:09.000.256,=C:\Users\Pierre\Documents\RAD Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2021/10/14 22:35:39.000.085,C:\Users\Pierre\Documents\RAD Studio\Projects\uConstantes.pas=C:\Users\Pierre\Documents\RAD Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2021/10/14 23:59:14.000.819,C:\Users\Pierre\Google Drive\Algoritmos\Estrutura de dados II\Grafo\uForm.dfm=C:\Users\Pierre\Documents\RAD Studio\Projects\uForm.dfm</Transaction>
+    <Transaction>2021/10/14 23:59:14.000.819,C:\Users\Pierre\Google Drive\Algoritmos\Estrutura de dados II\Grafo\uForm.pas=C:\Users\Pierre\Documents\RAD Studio\Projects\uForm.pas</Transaction>
+    <Transaction>2021/10/14 23:59:18.000.361,C:\Users\Pierre\Google Drive\Algoritmos\Estrutura de dados II\Grafo\uConstantes.pas=C:\Users\Pierre\Documents\RAD Studio\Projects\uConstantes.pas</Transaction>
+    <Transaction>2021/10/14 23:59:21.000.581,C:\Users\Pierre\Google Drive\Algoritmos\Estrutura de dados II\Grafo\Project1.dproj=C:\Users\Pierre\Documents\RAD Studio\Projects\Project1.dproj</Transaction>
+    <Transaction>2021/11/06 14:26:35.000.918,C:\Users\yancl\Documents\Grafo\Project1.dproj=C:\Users\yancl\Documents\Grafo\Grafo.dproj</Transaction>
+    <Transaction>2021/11/08 22:12:35.000.034,=C:\Users\Pierre\Google Drive\Algoritmos\Estrutura de dados II\Dijkstra\uTipo.pas</Transaction>
+  </Transactions>
+	<ProjectSortOrder AutoSort="0" SortType="0">
+    <File Path="uForm.pas"/>
+    <File Path="uForm.dfm"/>
+    <File Path="uTipo.pas"/>
+  </ProjectSortOrder>
+</BorlandProject>
