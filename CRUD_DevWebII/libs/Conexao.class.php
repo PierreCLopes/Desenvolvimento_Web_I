@@ -3,7 +3,7 @@ class Conexao {
 
   private $username   = 'root';
   private $password   = '';
-  private $banco      = 'devwebii';
+  private $banco      = 'webii';
   private $host       = 'localhost';
   private $conn;
 

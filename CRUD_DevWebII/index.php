@@ -51,8 +51,17 @@ function object_to_array($obj) {
 if (isset($_GET["pagina"])) {
     //montar a tabela de dados
     $consulta_dados =
-        $conn->getSelect("select * from menu where acao = '?pagina={$_GET['pagina']}'");
+    $conn->getSelect("select * from menu where acao = '?pagina={$_GET['pagina']}'");
     $dados_tabela = $conn->getSelect($consulta_dados[0]->sqltabela);
+
+    $colunas = explode(",",$consulta_dados[0]->colunas);
+    for ($i=0;$i<=count($colunas)-1;$i++) {
+        $cabecalho[$i] = $colunas[$i];
+    }
+
+    $teste = ['valor','teste'];
+
+    $tabela = new Table('table','table',new Thead('class',$cabecalho),new TBody('class',$teste),null);
 
     $colunas = explode(",",$consulta_dados[0]->colunas);
     for ($i=0;$i<=count($colunas)-1;$i++) {
@@ -67,11 +76,12 @@ if (isset($_GET["pagina"])) {
         }
         $pagina .= "<br>";
     }
-    //$pagina = $_GET["pagina"];
+    
 } else  {
+    $tabela = new Table(null,null,null,null,null);
     $pagina = "Selecione uma das opções no menu";
 }
-$miolo->addElement($pagina);
+$miolo->addElement($tabela);
 
 $areaprincipal->addElement($menu);
 $areaprincipal->addElement($miolo);
